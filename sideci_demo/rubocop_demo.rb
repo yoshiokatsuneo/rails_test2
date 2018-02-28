@@ -11,7 +11,7 @@ class Repository
   end
 
   def releases
-    repository&.releases&.map(&:name)
+    repository&.releases&.map(&:name) # test2
   end
 
   def active_branch
